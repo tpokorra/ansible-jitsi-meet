@@ -21,7 +21,8 @@
   vars:
     packages:
       - wget
-      - linux-image-amd64
+      - linux-image-extra-virtual
+      - unzip
 
 # tune systemd TODO needed in jibri?
 - include: systemd_tuning.yml
